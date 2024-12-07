@@ -1,0 +1,23 @@
+## MCQ 1
+Question: According to the survey conducted at Arizona State University, what percentage of students delayed their graduation due to the COVID-19 pandemic?
+A) 40%
+B) 13%
+C) 29%
+D) 11%
+Correct Answer: B
+
+## MCQ 2
+Question: What was the average decrease in weekly study hours reported by students due to COVID-19?
+A) 5 hours
+B) 0.9 hours
+C) 4 hours
+D) 2 hours
+Correct Answer: B
+
+## MCQ 3
+Question: Which socioeconomic group was found to be disproportionately affected by COVID-19 in terms of delaying graduation?
+A) Higher-income students
+B) White students
+C) Male students
+D) Lower-income students
+Correct Answer: D

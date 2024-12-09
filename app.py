@@ -6,10 +6,18 @@ import csv
 from werkzeug.utils import secure_filename
 import google.generativeai as genai
 from fpdf import FPDF
+from dotenv import load_dotenv
 
+# Load environment variables
+load_dotenv()
 
-os.environ["GOOGLE_API_KEY"] = "your_api_key"
-genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
+# Get API key from environment variable
+api_key = os.getenv("GOOGLE_API_KEY")
+if not api_key:
+    raise ValueError("No API key found. Please set GOOGLE_API_KEY environment variable.")
+
+# Configure Gemini
+genai.configure(api_key=api_key)
 model = genai.GenerativeModel("models/gemini-1.5-pro")
 
 

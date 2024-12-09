@@ -4,3 +4,4 @@ python-docx
 google-generativeai
 fpdf
 werkzeug
+python-dotenv==1.0.0
